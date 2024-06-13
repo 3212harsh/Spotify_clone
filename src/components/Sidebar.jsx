@@ -14,7 +14,7 @@ const Sidebar = () => {
         <p className='font-bold'>Search</p>
       </div>
     </div>
-    <div className='flex flex-col px-[2%] py-[4%] m-2 rounded gap-3 h-full bg-[#121212]'>
+    <div className='flex flex-col px-[2%] py-[4%] m-2 mb-0 rounded gap-3 h-full bg-[#121212]'>
         <div className='flex items-center px-2 justify-between'>
             <div className='flex gap-3 items-center'>
                 <img width="35px" src={assets.stack_icon} />

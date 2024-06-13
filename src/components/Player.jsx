@@ -5,7 +5,7 @@ import {assets} from '../assets/assets'
 const Player = () => {
   return (
     <>
-      <div className='flex flex-row items-center gap-3'>
+      <div className='hidden md:flex flex-row items-center gap-3'>
         <img width="50px" src={songsData[0].image} />
         <div className='flex flex-col text-white'>
             <h1 className=' font-semibold'>{songsData[0].name}</h1>
@@ -30,7 +30,7 @@ const Player = () => {
         </div>
       </div>
 
-      <div className='flex flex-row gap-3 items-center text-white'>
+      <div className='hidden lg:flex flex-row gap-3 items-center text-white'>
         <img width="20px" src={assets.plays_icon} />
         <img width="20px" src={assets.mic_icon} />
         <img width="20px" src={assets.queue_icon} />
